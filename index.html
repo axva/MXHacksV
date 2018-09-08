@@ -4,6 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style/style.css">
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-database.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.4.0/firebaseui.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-firestore.js"></script>
+<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.4.0/firebaseui.css" />
     <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"> -->
     <title>Mxpays</title>
@@ -45,11 +51,27 @@
       </div>
     </section>
 
-    <!-- <footer class="containerF">
+    <footer class="containerF">
       <div class="itemF">
         <p>Made whith love for MXHacks <3 </p>
       </div>
       <div class="itemF itemF2"></div>
-    </footer> -->
+    </footer>
+
+<script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+<script src="/__/firebase/init.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCwnCgZAhUtfuHNfL3nUn3uREaUbINOu5I",
+    authDomain: "mxpays-59b56.firebaseapp.com",
+    databaseURL: "https://mxpays-59b56.firebaseio.com",
+    projectId: "mxpays-59b56",
+    storageBucket: "",
+    messagingSenderId: "750824625627"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="script/main.js" charset="utf-8"></script>
   </body>
 </html>
