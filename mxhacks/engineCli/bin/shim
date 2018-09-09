@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH=/home/axva/Documentos/p_git/mxhacks/mxhacks/engineCli/lib/node_modules
+export NPM_CONFIG_PREFIX=/home/axva/Documentos/p_git/mxhacks/mxhacks/engineCli
+export npm_config_prefix=/home/axva/Documentos/p_git/mxhacks/mxhacks/engineCli
+exec engineCli/bin/node "$@"
